@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: nginx
+          image: 777669575376.dkr.ecr.us-east-1.amazonaws.com/case6-ecr:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
