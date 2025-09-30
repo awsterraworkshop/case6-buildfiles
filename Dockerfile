@@ -1,3 +1,3 @@
 # To avoid Docker Hub rate limits, use Public ECR nginx
-FROM public.ecr.aws/nginx/nginx:alpine
+FROM nginx:latest
 COPY index.html /usr/share/nginx/html/index.html
